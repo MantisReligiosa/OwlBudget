@@ -1,0 +1,68 @@
+﻿.logo {
+  img {
+    opacity: 70%;
+    height: 2rem;
+  }
+}
+
+.brand {
+  font-weight: bold;
+  font-size: .875rem;
+  color: rgba(0, 120, 212, 1);
+  font-family: "Segoe UI VSS (Regular)", "Segoe UI", "-apple-system", BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Ubuntu, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.projectCards {
+  margin-top: auto;
+
+  .projectCard {
+    max-width: 30%;
+    cursor: pointer
+  }
+}
+
+.projectNav {
+  background-color: lightgray;
+
+  .projectName {
+    font-weight: bold;
+  }
+
+  .accordion {
+    padding: 0;
+
+    .groupIcon {
+      color: #b8daff;
+    }
+  }
+}
+
+.buildinInput {
+  background-color: unset !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: auto !important;
+  width: 100% !important;
+}
+
+.objectsContent {
+  margin-left: 1px !important;
+  border-left: solid 1px #e4e5e5 !important;
+}
+
+.fill-height {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.periodInputGroup {
+  .input-group-prepend {
+    .input-group-text {
+      width: 3rem;
+    }
+  }
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
